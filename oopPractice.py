@@ -21,7 +21,7 @@ class Player: #The general class, a father of two
 
 class Healer_Wizzard(Player): #The favorite child: this player's son can heal
     def __init__(self, name, level, health, magic):
-        super().__init__(name, level, health)
+        Player.__init__(self, name, level, health)
         self.playerType = magic
 
     def details(self): #Inheritance, we can access values initiated in the father class
@@ -40,7 +40,7 @@ class Adventurer(Player): #The not so lovable child: this child can't heal,
     def __init__(self, name, level, health, sword):
         self.playerType = sword
         
-        super().__init__(name, level, health)
+        Player.__init__(self, name, level, health)
     
     def details(self):
         print()
