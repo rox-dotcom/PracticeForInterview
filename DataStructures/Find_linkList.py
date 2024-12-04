@@ -83,7 +83,7 @@ def main():
 
     #print(findInList(a,'F'))
     #print(indexMatch(a, 2))
-    #print(reverse_list(a))
+    print(reverse_list(a))
 
 
 if __name__ == '__main__':
