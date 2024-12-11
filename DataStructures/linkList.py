@@ -71,9 +71,9 @@ def main():
     c.next = d
     # a -> b -> c -> d -> none 
 
-    print_linkList(a) #we pass the first node
+    #print_linkList(a) #we pass the first node
     #print(linkedListToArray(a))
-    #print(sumLinkList(a))
+    print(sumLinkList(a))
     
 
 if __name__ == '__main__':

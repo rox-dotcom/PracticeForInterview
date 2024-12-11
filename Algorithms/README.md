@@ -13,5 +13,5 @@ Theres some algorithms that are more efficient than other. Some examples of thes
   - Insertion Sort <br>
   - Quick sort <br>
   - Heap sort <br>
-  -Selection sort <br>
+  - Selection sort <br>
 
